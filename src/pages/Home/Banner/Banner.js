@@ -1,9 +1,11 @@
 import React from 'react';
 import banner from '../../../assets/image/banner.png'
+import PrimaryButton from '../../../components/PrimaryButton';
 const Banner = () => {
     return (
         <div>
-          <div className="hero min-h-screen"  style={{
+          <div className="hero min-h-screen my-20"  
+          style={{
             background: `url(${banner})`,
             backgroundSize: 'cover'
         }}>
@@ -12,7 +14,7 @@ const Banner = () => {
     <div className="max-w-md">
       <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
       <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-      <button className="btn btn-primary">Get Started</button>
+     <PrimaryButton>Get Started</PrimaryButton>
     </div>
   </div>
 </div>

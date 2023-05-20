@@ -1,12 +1,20 @@
 import React from 'react';
-
+import bg from '../../../assets/image/bg.png'
+import PrimaryButton from '../../../components/PrimaryButton';
 const Contact = () => {
     return (
-        <div>
+        <div
+        style={{
+          background: `url(${bg})`,
+          backgroundSize: 'cover'
+      }} 
+       className='mt-15' >
+        <h1 className="pt-10 text-5xl text-center font-bold text-primary ">Contact Us</h1>
           <div className="hero min-h-screen ">
-  <div className="hero-content flex-col lg:flex-row-reverse">
+            
+  <div className="">
    
-    <div className="card flex-shrink-0 w-full max-w-sm ">
+    <div className=" ">
       <div className="card-body">
         <div className="form-control">
           
@@ -26,7 +34,7 @@ const Contact = () => {
 
         
         <div className="form-control mt-6">
-          <button className="btn btn-primary">Submit</button>
+          <PrimaryButton>Submit</PrimaryButton>
         </div>
       </div>
     </div>

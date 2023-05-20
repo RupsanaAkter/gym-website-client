@@ -8,8 +8,8 @@ module.exports = {
     themes: [
       {
         gymtheme: {
-          primary: "#a991f7",
-          secondary: "#f6d860",
+          primary: "#5bccf6",
+          secondary: "#70be51",
           accent: "#37cdbe",
           neutral: "#3d4451",
           "base-100": "#ffffff",

@@ -1,9 +1,11 @@
 import React from 'react';
 import offer from '../../../assets/image/offer.png'
+import PrimaryButton from '../../../components/PrimaryButton';
 const Offer = () => {
     return (
-        <div>
-        <div className="hero min-h-screen"  style={{
+        
+        <div className="hero min-h-screen mt-20"  
+        style={{
           background: `url(${offer})`,
           backgroundSize: 'cover'
       }}>
@@ -12,11 +14,11 @@ const Offer = () => {
   <div className="max-w-md">
     <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
     <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-    <button className="btn btn-primary">Get Started</button>
+   <PrimaryButton>Get Started</PrimaryButton>
   </div>
 </div>
 </div>
-      </div>
+      
     );
 };
 
